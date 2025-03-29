@@ -51,7 +51,7 @@ Users should be able to:
 
 ### What I learned
 
-This where I learned how to use SCSS for styling. I must say that I really enjoyed the learning process. It made my work very organised compared to tyhe way it use to be before. Making the website responsive was easy as a result of the feature scss has to write functions and declare variables that can be used every where in the code. I am not yet totally good with this, but I know I will with time.
+This is where I learned how to use SCSS for styling. I must say that I enjoyed the learning process. It made my work more organised compared to the way it used to be. Making the website responsive was easy due to the feature that Sass has to write functions and declare variables that can be used everywhere in the code. I am not yet totally good with this, but I know I will with time.
 
 ### Continued development
 
