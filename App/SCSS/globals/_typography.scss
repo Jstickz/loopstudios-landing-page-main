@@ -1,0 +1,58 @@
+@use "../util/" as U;
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: clamp(U.rem(16), U.rem(40) + 3vw, U.rem(78));
+  text-transform: uppercase;
+  color: var(--White);
+
+  word-wrap: break-word;
+}
+h2 {
+  font-size: clamp(U.rem(16), U.rem(30) + 3vw, U.rem(60));
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--Black);
+  margin-bottom: U.rem(20);
+}
+h3 {
+  max-width: 150px;
+  font-size: clamp(U.rem(16), U.rem(20) + 3vw, U.rem(30));
+  text-transform: uppercase;
+  position: absolute;
+  bottom: U.rem(30);
+  left: U.rem(30);
+  color: var(--White);
+  z-index: 5;
+
+  white-space: normal; // Allow text to wrap
+}
+
+p {
+  font-size: U.rem(25);
+  color: var(--Dark-Gray);
+  text-align: center;
+  line-height: 1.5;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  font-size: U.rem(25);
+  text-transform: uppercase;
+  font-weight: 300;
+  color: var(--White);
+  font-weight: 600;
+  text-wrap: nowrap;
+}
+
+li {
+  list-style: none;
+}
